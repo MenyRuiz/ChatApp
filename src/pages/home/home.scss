@@ -1,0 +1,24 @@
+page-home {
+    #content{
+      color: white;
+        font-size: 190%;
+        text-align: center;
+        background: url(https://images3.alphacoders.com/279/279285.jpg);
+      }
+      #apo{
+        width: 90%;
+        font-size: 90%;
+        text-align: center;
+        border-radius: hidden;
+        background: rgba(255, 255, 255, 0.6);
+      }
+      #bott{
+        color: black;
+        border-top-left-radius:75px;
+        border-top-right-radius:75px;
+        border-bottom-left-radius:75px;
+        border-bottom-right-radius:75px;
+        width: 100%;
+        background: white;
+      }
+}

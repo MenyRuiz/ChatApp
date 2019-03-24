@@ -1,0 +1,11 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>ChatAPP Login</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="content">
+ <p id="subt">¡Ingresa un usuario!</p>
+ <!--<ion-input id="apodo" placeholder="Nickname" [(ngModel)]="userName"></ion-input>-->
+ <input type="text" id="apo" placeholder="Nickname" [(ngModel)]="userName">
+ <button (click)="entrar()" id="bott" ion-button block>Entrar</button>
+</ion-content>
